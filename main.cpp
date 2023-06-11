@@ -3,6 +3,6 @@
 #include "Sudoku.h"
 
 int main() {
-    Sudoku sudoku;
+    Sudoku sudoku(42);
     sudoku.display();
 }
